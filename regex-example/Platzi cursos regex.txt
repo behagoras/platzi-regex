@@ -1,0 +1,13 @@
+Platzi cursos regex
+	(^.*$)\n\n(\d{1,2}):(\d{1,2}) min(\nMarcar como vista)(\nMaterial Thumbnail)
+Replace
+	|$2|$3|$1
+
+Minutos
+	(\d{1,2}):(\d{1,2}
+
+Marcar como visto
+	Marcar como vista\n
+
+Material Thumbnail
+	Material Thumbnail\n
